@@ -1,0 +1,60 @@
+.home{
+
+    height: 400px;
+    color: white;
+    background-color: #030303da;
+
+}
+.home-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.home-content h3{
+
+    margin-top: 20px;
+    color: yellow;
+}
+
+.button-for-action{
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.hireme-button{
+
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.hireme-button:hover{
+
+    width: 220px;
+    background-color: white;
+    transition: 1s;
+    color: black;
+}
+
+.resume-button{
+
+    width: 200px;
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
